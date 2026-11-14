@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Koto" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/koto_window_bg</item>
+    </style>
+
+    <!-- The share receiver does its work and finishes immediately; a translucent theme stops
+         an empty screen flashing up on the way. -->
+    <style name="Theme.Koto.Transparent" parent="Theme.Koto">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

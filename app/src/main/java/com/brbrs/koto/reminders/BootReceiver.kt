@@ -1,0 +1,23 @@
+package com.brbrs.koto.reminders
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import com.brbrs.koto.sync.WorkScheduler
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
+
+@AndroidEntryPoint
+class BootReceiver : BroadcastReceiver() {
+
+    @Inject lateinit var workScheduler: WorkScheduler
+
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action != Intent.ACTION_BOOT_COMPLETED) return
+        // AlarmManager alarms are wiped on reboot; hand off to a worker rather than doing
+        // Room/DataStore I/O directly in a broadcast receiver, which has a very short budget.
+        workScheduler.rescheduleRemindersAfterBoot()
+        // Proximity alerts and the periodic check both need re-establishing after a reboot.
+        workScheduler.scheduleLocationChecks(true)
+    }
+}

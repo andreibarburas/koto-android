@@ -1,0 +1,41 @@
+Koto is a privacy-first task manager built for Nextcloud. No ads, no tracking, no cloud lock-in — just your to-dos, synced the way CalDAV was meant to work.
+
+YOUR TASKS, YOUR SERVER
+Connect directly to your Nextcloud instance over CalDAV. Koto syncs your tasks in the background and keeps a local cache, so your lists are always available, even offline.
+
+BUILT FOR HOW YOU ACTUALLY WORK
+An Agenda screen shows a dated timeline across every list. A Tasks screen groups everything into Overdue, Today, Tomorrow, This Week, Later and No Date, with Today, Upcoming, All, Done and Everything filters — counts always visible. A Lists screen shows all your task lists with cover images, icons and task totals.
+
+RICH TASK DETAILS
+Set due and start dates, priority, repeat rules, progress, location, notes, tags, subtasks, and cross-app links — all stored as standard VTODO so other CalDAV clients see the same data. Recurring tasks roll forward on completion instead of splitting the series.
+
+REMINDERS THAT WORK
+Local notifications with configurable offsets — on time, 1 hour, 1 day or 1 week before. Reminders survive reboots and stay in sync when you complete or delete tasks on any device. A Complete action on the notification ticks the task off without opening the app.
+
+CONNECTED TO THE REST OF YOUR SUITE
+Link a task directly to a Vinci contact, a Nóta note or a Tavla card. Send a task's title and description to Nóta or Tavla in one tap. Zaman (Nextcloud Calendar) can show Koto due-dates in its own agenda.
+
+MAKE IT YOURS
+Smart quick add reads "tomorrow", "friday 17:30", "!2" and "#tag" out of what you type. Manual ordering lets you drag tasks into place; the order syncs to Nextcloud Tasks too. Tag management lets you rename or recolor a tag across every task at once.
+
+NO COMPROMISES ON PRIVACY
+Koto talks only to your Nextcloud server. Nothing is sent anywhere else — no accounts to create, no analytics running in the background. It is free, open-source, and built for people who want to own their own data.
+
+FEATURES
+- Direct CalDAV sync with your own Nextcloud, no DAVx5/ICSx bridge required
+- Agenda, Tasks and Lists screens
+- Today, Upcoming, All, Done and Everything filters with live counts
+- Rich task details: due, start, priority, repeat, progress, location, notes, tags, subtasks
+- Local reminders with configurable offsets, restored after reboot
+- Smart quick add with natural-language date and tag parsing
+- Tag management: rename, recolor or remove a tag across all tasks at once
+- Location reminders on arrival, using AOSP LocationManager (no Google Play Services)
+- Attachments uploaded to your own Nextcloud
+- Linked items: Vinci contacts, Nóta notes, Tavla cards, or any URL
+- Send to Nóta / Send to Tavla cross-posting
+- Manual task ordering, synced as X-APPLE-SORT-ORDER
+- Offline-first with conflict-aware sync
+- Portable: settings and covers restore automatically on a new device
+- Biometric lock
+- Light / Dark / OLED themes, adjustable text size
+- Local-only mode with export/import backup
