@@ -2,11 +2,11 @@
 
 > Your tasks, your server. CalDAV, directly — no DAVx5/ICSx bridge required.
 
-![GitHub Release](https://img.shields.io/github/v/release/andreibarburas/zaman-android?style=flat&link=https://github.com/andreibarburas/zaman-android/releases)
-![GitHub last commit](https://img.shields.io/github/last-commit/andreibarburas/zaman-android)
-![GitHub Issues](https://img.shields.io/github/issues/andreibarburas/zaman-android?link=https://github.com/andreibarburas/zaman-android/issues)
+![GitHub Release](https://img.shields.io/github/v/release/andreibarburas/koto-android?style=flat&link=https://github.com/andreibarburas/koto-android/releases)
+![GitHub last commit](https://img.shields.io/github/last-commit/andreibarburas/koto-android)
+![GitHub Issues](https://img.shields.io/github/issues/andreibarburas/koto-android?link=https://github.com/andreibarburas/koto-android/issues)
 
-[![Get it on Google Play](https://img.shields.io/badge/Google%20Play-Download-brightgreen?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.brbrs.zaman)
+[![Get it on Google Play](https://img.shields.io/badge/Google%20Play-Download-brightgreen?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.brbrs.koto)
 [![F-Droid](https://img.shields.io/badge/F--Droid-self--hosted%20repo-blue?logo=f-droid)](https://android.barburas.com/repo)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-purple.svg)](LICENSE)
 
